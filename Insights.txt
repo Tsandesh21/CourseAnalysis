@@ -1,0 +1,25 @@
+Please peform the following analysis
+1. Combine course list and course rating tables (to get the course feedback category)
+2. Perform data cleaning activities and make the data set ready for analysis
+3. Provide 4-5 key descriptive analysis output
+4. Provide some key insights from the dataset
+5. Which course do you recommend if a student who is new to python want to pursue Python course. Provide details on what approach is followed to come up with recommendation.
+
+
+dtype
+handle rating more than 5
+For missing rating use avg rating from that org and difficult. if difficult is absent then use org avg. If it is also absent then use overall avg.
+check duplicates
+fill course_Certificate_type with  mode i.e. course
+
+
+Average Rating is quite higher compared to minimum value.
+Out of total Certificate 65% are Courses, 33% are Specialization and 1% are PROFESSIOAL CERTIFICATE.
+In Certificate type, 45% titles of "COURSE" have Excellent feedback while "SPECIALIZATION" have 68% of titles with Excellent Feedback.
+'UNIVERSITY OF COLORADO SYSTEM has less student instead it has more courses and the reason is it has more number of specialization.
+
+There are total 154 Orgs, out of which 21 Orgs provide more than 10 courses.
+And 0ut of total enrolled student, 65% of students belong to those 21 Orgs.
+Which means increasing the number of courses in a organization attractsa more student.
+
+STANFORD UNIVERSITY(16 titles) has the highest(303.3K) Avg Student per course among all Organization follwed by YALE UNIVERSITY(17 titles) with 232.4K.
